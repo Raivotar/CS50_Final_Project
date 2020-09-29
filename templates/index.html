@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Caesar Cipher for fun
+{% endblock %}
+
+{% block body %}
+
+        <form action="/encrypt" method="post">
+        <input type="text" placeholder="Message to encrypt" name="msg">
+        <input type="submit"  value="Submit">
+        </form>
+
+
+        <form action="/decrypt" method="post">
+        <input type="text" placeholder="Message to decrypt" name="msg1">
+        <input type="submit"  value="Submit">
+        </form>
+
+
+{% endblock %}

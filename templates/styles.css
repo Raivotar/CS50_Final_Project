@@ -1,0 +1,21 @@
+.color
+    {
+        color: purple;
+    }
+
+.table1
+    {
+        border: 2px solid black;
+    }
+
+.fontezeira {
+  font-family: "Comic Sans", Times, serif;
+}
+.center1
+{
+    align-content: center;
+}
+.grid-container {
+  display: grid;
+  grid: 150px / auto auto auto;
+}
